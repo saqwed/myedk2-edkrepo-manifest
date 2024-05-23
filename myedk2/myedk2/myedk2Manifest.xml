@@ -38,8 +38,8 @@
       <Source localRoot="edk2" remote="edk2" branch="master" sparseCheckout="true" enableSubmodule="true" />
       <Source localRoot="edk2-platforms" remote="edk2-platforms" branch="master" sparseCheckout="true" />
       <Source localRoot="edk2-libc" remote="edk2-libc" branch="master" sparseCheckout="true" />
-	  <Source localRoot="edk2-non-osi" remote="edk2-non-osi" branch="master" sparseCheckout="true" />
-	  <Source localRoot="edk2-test" remote="edk2-test" branch="master" sparseCheckout="true" />
+      <Source localRoot="edk2-non-osi" remote="edk2-non-osi" branch="master" sparseCheckout="true" />
+      <Source localRoot="edk2-test" remote="edk2-test" branch="master" sparseCheckout="true" />
       <Source localRoot="FSP" remote="FSP" branch="master" sparseCheckout="true" />
     </Combination>
 
@@ -47,8 +47,8 @@
       <Source localRoot="edk2" remote="edk2" branch="master" sparseCheckout="true" enableSubmodule="true" tag="edk2-stable202402" />
       <Source localRoot="edk2-platforms" remote="edk2-platforms" branch="master" sparseCheckout="true" commit="103c88ba5b0c6259fc674e6358c68a85e882e41b" />
       <Source localRoot="edk2-libc" remote="edk2-libc" branch="master" sparseCheckout="true" commit="4667a82f0d873221f8b25ea701ce57a29270e4cb" />
-	  <Source localRoot="edk2-non-osi" remote="edk2-non-osi" branch="master" sparseCheckout="true" commit="054cacf8819f82c91d1a681bda304d8f0da858f7" />
-	  <Source localRoot="edk2-test" remote="edk2-test" branch="master" sparseCheckout="true" commit="f999690054b56780f5efbe0999507d7176bd87f6" />
+      <Source localRoot="edk2-non-osi" remote="edk2-non-osi" branch="master" sparseCheckout="true" commit="054cacf8819f82c91d1a681bda304d8f0da858f7" />
+      <Source localRoot="edk2-test" remote="edk2-test" branch="master" sparseCheckout="true" commit="f999690054b56780f5efbe0999507d7176bd87f6" />
       <Source localRoot="FSP" remote="FSP" branch="master" sparseCheckout="true" commit="3819544eb4386a05699f0026c64daf5d896dff0b" />
     </Combination>
   </CombinationList>
