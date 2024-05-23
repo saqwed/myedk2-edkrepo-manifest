@@ -1,0 +1,4 @@
+<ProjectList>
+  <!-- Fhe 'xmlPath' values should be relative to this file (CiIndex.xml) -->
+  <Project name="myedk2" xmlPath="myedk2/myedk2/myedk2Manifest.xml" />
+</ProjectList>
