@@ -39,6 +39,10 @@ REM Use parameter --single-branch to clone only the specific branch.
 edkrepo clone --single-branch myedk2-tag202402 myedk2 edk2-stable202402
 ```
 
+## edkrepo user guide
+
+- Download pdf from [edkrepouserguide.pdf](https://github.com/tianocore/edk2-edkrepo/blob/main/edkrepouserguide.pdf)
+
 ## issue?
 
 When run `edkrepo clone` may see below error and breaking clone process.
@@ -51,6 +55,7 @@ fatal: early EOF
 fatal: fetch-pack: invalid index-pack output
 ```
 
-Run `git config --global http.postBuffer 4096M` and try again
+Run `git config --global http.postBuffer 4096M` and try again, after clone finished,
+change it back to `git config --global http.postBuffer 1M`
 
 Refer to: [error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly before end of the underlying stream](https://github.com/orgs/Homebrew/discussions/4069)
