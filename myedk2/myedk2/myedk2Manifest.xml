@@ -69,6 +69,16 @@
       <Source localRoot="edk2-test" remote="edk2-test" branch="master" sparseCheckout="true" commit="df9a877d1bcc8fa8f6c4992cf531472d5908af71" />
       <Source localRoot="FSP" remote="FSP" branch="master" sparseCheckout="true" commit="68328e297e195a6cfb1949b60d971c032a172ba3" />
     </Combination>
+
+    <Combination name="edk2-stable202408.01" description="freeze edk2-stable202408.01">
+      <Source localRoot="edk2" remote="edk2" branch="master" sparseCheckout="true" enableSubmodule="true" tag="edk2-stable202408.01" />
+      <Source localRoot="edk2-platforms" remote="edk2-platforms" branch="master" sparseCheckout="true" commit="7dad9da439426a6887852720072d18ee39f25916" />
+      <Source localRoot="edk2-libc" remote="edk2-libc" branch="master" sparseCheckout="true" commit="87108465dcfbf888b8044ae86b4dc84b04b19082" />
+      <Source localRoot="edk2-non-osi" remote="edk2-non-osi" branch="master" sparseCheckout="true" commit="4e36179c55f49a73fe4805baa2b5f9fdd0a07a67" />
+      <Source localRoot="edk2-test" remote="edk2-test" branch="master" sparseCheckout="true" commit="df9a877d1bcc8fa8f6c4992cf531472d5908af71" />
+      <Source localRoot="FSP" remote="FSP" branch="master" sparseCheckout="true" commit="68328e297e195a6cfb1949b60d971c032a172ba3" />
+    </Combination>
+
   </CombinationList>
 
   <DscList>
