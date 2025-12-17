@@ -115,6 +115,15 @@
       <Source localRoot="FSP" remote="FSP" branch="master" sparseCheckout="true" commit="9623d524500c140a6b11d2c727cb282b54962f09" />
     </Combination>
 
+    <Combination name="edk2-stable202511" description="freeze edk2-stable202511">
+      <Source localRoot="edk2" remote="edk2" branch="master" sparseCheckout="true" enableSubmodule="true" tag="edk2-stable202508" />
+      <Source localRoot="edk2-platforms" remote="edk2-platforms" branch="master" sparseCheckout="true" commit="c3dac0ff7b9ae7a2194a0f02d5aea647ca555b0e" />
+      <Source localRoot="edk2-libc" remote="edk2-libc" branch="master" sparseCheckout="true" commit="27545cb7cf32077331bcac0e008115467f5e4c53" />
+      <Source localRoot="edk2-non-osi" remote="edk2-non-osi" branch="master" sparseCheckout="true" commit="94d048981116e2e3eda52dad1a89958ee404098d" />
+      <Source localRoot="edk2-test" remote="edk2-test" branch="master" sparseCheckout="true" commit="1cd5f2915af4af84e93a3efccb3af85688cb810a" />
+      <Source localRoot="FSP" remote="FSP" branch="master" sparseCheckout="true" commit="2e4673109868eecaccbaca01c924ed6a686f7ad6" />
+    </Combination>
+
   </CombinationList>
 
   <DscList>
